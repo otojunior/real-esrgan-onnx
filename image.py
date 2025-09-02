@@ -11,7 +11,7 @@ parser.add_argument("--result", default='1_enh.png', help="path to result image"
 opt = parser.parse_args()
 
 from RealEsrganONNX.esrganONNX import RealESRGAN_ONNX
-enhancer = RealESRGAN_ONNX(model_path="RealEsrganONNX/RealESRGAN_x2_fp16.onnx", device="cuda")
+enhancer = RealESRGAN_ONNX(model_path="RealEsrganONNX/RealESRGAN_x4_fp16.onnx", device="cuda")
             
 img = cv2.imread(opt.image)
 
