@@ -29,5 +29,5 @@ result = enhancer.enhance_fp16(img)
 #result = enhancer.enhance(img)
 
 cv2.imwrite(opt.result, result)
-cv2.imshow("Result",result.astype(np.uint8))
-cv2.waitKey() 
+#cv2.imshow("Result",result.astype(np.uint8))
+#cv2.waitKey() 
