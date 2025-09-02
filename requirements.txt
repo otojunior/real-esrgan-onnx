@@ -1,5 +1,4 @@
 opencv-python==4.8.0.76
-numpy
+numpy>=1.23,<2.0
 tqdm
 onnxruntime
-

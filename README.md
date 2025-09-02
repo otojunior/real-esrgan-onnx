@@ -12,3 +12,7 @@ result 2x:
 
 
 Original Real-ESRGAN: https://github.com/xinntao/Real-ESRGAN
+
+# Modelos ONNX
+
+- https://huggingface.co/rippertnt/upscale
